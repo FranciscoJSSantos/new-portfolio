@@ -114,18 +114,21 @@ header{
   letter-spacing: 1px;
   color: #fff;
   line-height: 2.5em;
+  font-family: 'Poppins', sans-serif;
 }
 
 .sec1 .contentPrincipal h2 span{
   font-weight: 700;
   color: #2196f3;
   font-size: 3em;
+  font-family: 'Poppins', sans-serif;
 }
 
 .sec1 .contentPrincipal p{
   color: #fff;
   font-size: 1.2em;
   margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .sec1 .contentPrincipal .btn{
