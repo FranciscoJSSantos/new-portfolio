@@ -1,104 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/5975639dad.js" crossorigin="anonymous"></script>
-  <body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5975639dad.js" crossorigin="anonymous"></script>
+    <body>
+    <header>
+      <a class="logo">PORTFÓLIO</a>
+      <nav>
+        <ul class="nav__links">
+          <li><a class="items__menu" href="#principal">Principal</a></li>
+          <li><a class="items__menu" href="#projeto">Projetos</a></li>
+          <li><a class="items__menu" href="#">Curiosidades</a></li>
+        </ul>
+      </nav>
+      <div class="media-icons">
+        <a href="https://www.linkedin.com/in/francisco-josé-04310a1a2/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/FranciscoJSSantos" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/Xicow3" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </header>
+
+  <div class="sessao-principal-teste">
+    <section id="principal" class="sec1">
+      <div class="minhaFotoPrincipal">
+        <img src="chico.jpg" title="Foto Chico"class="cover">
+      </div>
+      <div class="contentPrincipal">
+        <h2>Olá, eu sou<br><span>Francisco José</span></h2>
+        <p>Um jovem que ama aprender e apaixonado por programação. Conhecimento na 
+          área de desenvolvimento em Websites utilizando hmtl, css e js</p>
+          <a href="#" class="btn">Clique para ver meu currículo</a>
+    </section>
+  </div>
 
 
-  <header>
-    <a class="logo">PORTFÓLIO</a>
-    <nav>
-      <ul class="nav__links">
-        <li><a class="items__menu" href="#principal">Principal</a></li>
-        <li><a class="items__menu" href="#projeto">Projetos</a></li>
-        <!--li><a class="items__menu" href="#">Curiosidades</a></!--li-->
-      </ul>
-    </nav>
-    <div class="media-icons">
-      <a href="https://www.linkedin.com/in/francisco-josé-04310a1a2/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/FranciscoJSSantos" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://twitter.com/Xicow3" target="_blank"><i class="fab fa-twitter"></i></a>
-    </div>
-  </header>
-
-
-  <section id="principal" class="sec1">
-    <div class="minhaFotoPrincipal">
-      <img src="chico.jpg" class="cover">
-    </div>
-    <div class="contentPrincipal">
-      <h2>Olá, eu sou<br><span>Francisco José</span></h2>
-      <p>Dev Júnior | Frontend Developer</p>
-        <!--a href="#" class="btn">Clique para ver meu currículo</!--a-->
-  </section>
-
-
-  <section class="project" id="projeto">
-    <section class="sessaoProjeto">
-      <div class="box">
-        <h2 data-jarallax-element="0 -200">Lacia</h2>
-        <div class="container">
-          <div class="imgBx jarallax">
-            <img src="lacia.jpg" class="jarallax-img" alt="">
-          </div>
-          <div class="content" data-jarallax-element="-200 0">
-            <p>Desenvolvimento de um sistema de gerenciamento de projetos do LACIA 
-              (Laboratório avançado de computação e inteligência artificial) 
-              de recomendação da disciplina Laboratório de Engenharia de Software 
-              ministrada pelo professor Fábio Gomes Rocha na Universidade Tiradentes - UNIT. 
-              </p>
-              <a class="botaoProjeto" href="https://github.com/gledsoncarvalho/lacia-web" target="_blank">Ir até o Projeto</a>
+    <section class="project" id="projeto">
+      <section class="sessaoProjeto">
+        <div class="box">
+          <h2 data-jarallax-element="0 -200">Lacia</h2>
+          <div class="container">
+            <div class="imgBx jarallax">
+              <img src="lacia.jpg" class="jarallax-img" alt="">
+            </div>
+            <div class="content" data-jarallax-element="-200 0">
+              <p>Desenvolvimento de um sistema de gerenciamento de projetos do LACIA 
+                (Laboratório avançado de computação e inteligência artificial) 
+                de recomendação da disciplina Laboratório de Engenharia de Software 
+                ministrada pelo professor Fábio Gomes Rocha na Universidade Tiradentes - UNIT. 
+                </p>
+                <a class="botaoProjeto" rel="noopener" href="https://github.com/gledsoncarvalho/lacia-web" target="_blank">Ir até o Projeto</a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="sessaoProjeto">
-      <div class="box">
-        <h2 data-jarallax-element="0 200">4lab</h2>
-        <div class="container">
-          <div class="imgBx jarallax">
-            <img src="4lab.jpg" class="jarallax-img" alt="">
-          </div>
-          <div class="content" data-jarallax-element="-200 0">
-            <p>Criação de um aplicativo que irá auxiliar no controle de qualidade de laboratório de an
-              álises clínicas, em questão o laboratório central de biomedicina (4lab) , visando ao biomédico responsável da
-               qualidade um maior controle sob as atividades desenvolvidas.
-              </p>
-              <a class="botaoProjeto" href="https://github.com/yankelvin/rnc-frontend" target="_blank">Ir até o Projeto</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="sessaoProjeto">
-      <div class="box">
-        <h2 data-jarallax-element="0 200">Monkey Finances</h2>
-        <div class="container">
-          <div class="imgBx jarallax">
-            <img src="mk.jpg" class="jarallax-img" alt="">
-          </div>
-          <div class="content" data-jarallax-element="-200 0">
-            <p>O sistema de gerenciamento de finanças Monkey Finances surgiu após uma análise mercadológica 
-              da equipe de desenvolvimento Monkeys, onde foi verificado que na maioria dos sistemas para gestão financeira, 
-              as interfaces e a comunicação com o usuário ficava um tanto quanto restrita à pessoas com um certo conhecimento da área, 
-              ou apenas para pessoas com algum nível de escolaridade elevada. 
-              </p>
+      </section>
+      <section class="sessaoProjeto">
+        <div class="box">
+          <h2 data-jarallax-element="0 200">4lab</h2>
+          <div class="container">
+            <div class="imgBx jarallax">
+              <img src="4lab.jpg" class="jarallax-img" alt="">
+            </div>
+            <div class="content" data-jarallax-element="-200 0">
+              <p>Criação de um aplicativo que irá auxiliar no controle de qualidade de laboratório de an
+                álises clínicas, em questão o laboratório central de biomedicina (4lab) , visando ao biomédico responsável da
+                qualidade um maior controle sob as atividades desenvolvidas.
+                </p>
+                <a class="botaoProjeto" href="https://github.com/yankelvin/rnc-frontend" target="_blank">Ir até o Projeto</a>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section class="sessaoProjeto">
+        <div class="box">
+          <h2 data-jarallax-element="0 200">Monkey Finances</h2>
+          <div class="container">
+            <div class="imgBx jarallax">
+              <img src="mk.jpg" class="jarallax-img" alt="">
+            </div>
+            <div class="content" data-jarallax-element="-200 0">
+              <p>O sistema de gerenciamento de finanças Monkey Finances surgiu após uma análise mercadológica 
+                da equipe de desenvolvimento Monkeys, onde foi verificado que na maioria dos sistemas para gestão financeira, 
+                as interfaces e a comunicação com o usuário ficava um tanto quanto restrita à pessoas com um certo conhecimento da área, 
+                ou apenas para pessoas com algum nível de escolaridade elevada. 
+                </p>
+                <a class="botaoProjeto" href="https://github.com/gledsoncarvalho/lacia-web" target="_blank">Ir até o Projeto</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
-  </section>
-    <script src="jarallax.js"></script>
-    <script src="jarallax-element.js"></script>
-    <script type="text/javascript">
-      jarallax(document.querySelectorAll('.jarallax'),{
-        speed: 0.5
-      });
-    </script>
+      <script src="jarallax.js"></script>
+      <script src="jarallax-element.js"></script>
+      <script type="text/javascript">
+        jarallax(document.querySelectorAll('.jarallax'),{
+          speed: 0.5
+        });
+      </script>
 
-</body>
+  </body>
 </html>

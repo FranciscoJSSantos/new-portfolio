@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 /* CSS HEADER */
+
 
 li .items__menu{  
   font-family: "Montserrat", sans-serif;
@@ -15,13 +16,12 @@ header{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 30px 10%;
-  color: #edf0f1; 
+  padding: 0px 10%;
+  color: #edf0f1;
   position: fixed;
   width: 100%;
-  height: 14vh;
+  height: 8vh;
   left: 0;
-  bottom: 58rem;
   z-index: 1;
 }
 
@@ -81,32 +81,35 @@ header{
   background: #0E1212;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .cover{
-  width: 100%;
-  object-fit: cover;
-}
-
-.sec1{
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin-top: 12rem;
-  margin-left: 18rem;
-  margin-bottom: 15rem;
-  height: 70vh;
-}
-
-.sec1 .minhaFotoPrincipal{
-  position: relative;
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  overflow: hidden;
 }
+
+.sec1{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0rem;
+}
+
+/* .sec1 .minhaFotoPrincipal{
+
+} */
 
 .sec1 .contentPrincipal{
   max-width: 700px;
   margin-left: 40px;
+  overflow: hidden;
 }
 
 .sec1 .contentPrincipal h2{
@@ -114,21 +117,18 @@ header{
   letter-spacing: 1px;
   color: #fff;
   line-height: 2.5em;
-  font-family: 'Poppins', sans-serif;
 }
 
 .sec1 .contentPrincipal h2 span{
   font-weight: 700;
   color: #2196f3;
   font-size: 3em;
-  font-family: 'Poppins', sans-serif;
 }
 
 .sec1 .contentPrincipal p{
   color: #fff;
   font-size: 1.2em;
   margin-bottom: 20px;
-  font-family: 'Poppins', sans-serif;
 }
 
 .sec1 .contentPrincipal .btn{
@@ -165,7 +165,6 @@ header{
 }
 
 .sessaoProjeto h2{
-  margin-left: 470px;
   font-size: 4em;
   color: #fff;
   margin-bottom: 20px;
@@ -173,7 +172,7 @@ header{
 
 .sessaoProjeto .container{
   position: relative;
-  width: 1000px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -183,6 +182,9 @@ header{
   flex-direction: row-reverse;
 }
 
+.box{
+  background-color: transparent;
+}
 
 .sessaoProjeto .container .imgBx{
   position: relative;
@@ -208,7 +210,7 @@ header{
   margin-bottom: 40px;
   padding: 40px;
   background: #333333;
-  z-index: 1;
+  z-index: 0;
   max-width: 400px;
   color: #fff;
   box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
